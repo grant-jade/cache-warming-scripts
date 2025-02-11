@@ -217,7 +217,7 @@ def warm_cache(urls: List[str]) -> None:
             print(f"- {url} at {node}: {status}")
 
 def main():
-    base_url = "http://22355-dark-shape.site.hardypress.com/"
+    base_url = "http://domain.com/"
     discovered_urls = set()
     
     # First, try to find the sitemap
